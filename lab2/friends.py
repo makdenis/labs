@@ -21,13 +21,5 @@ class friends(baseclass.BaseClient):
 
                 a.append(y)
         return a
-id =get_id.get_id.getid(get_id.get_id._get_data('users.get'))
-t=friends.response_handler(id)
-a=[]
-friends.getfriends(t,a)
 
-plt.hist(
-    a, # в зависимости от количества 1,2,3 строится гистограмма
-    40 # а это как бы длина оси х
-    )
-plt.show()
+

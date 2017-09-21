@@ -29,7 +29,7 @@ class BaseClient:
         return '{0}{1}'.format(self.BASE_URL, method)
 
     # Отправка запроса к VK API
-    def _get_data(self, method):
+    def _get_data(self,method):
         response = None
 
         # todo выполнить запрос
