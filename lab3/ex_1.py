@@ -6,7 +6,7 @@ goods = [
     {'title': 'Диван для отдыха', 'price': 5300, 'color': 'black'}
 ]
 
-# Реализация задания 1
+
 #print([x for x in field(goods, 'title', 'price')])
 #print([x for x in field(goods, 'title')])
 print([x for x in gen_random(1, 5, 5)])

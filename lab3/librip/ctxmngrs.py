@@ -18,7 +18,7 @@ def timer():
     t2 = datetime.datetime.now()
     res = t2 - t1
     res1 = str(res.seconds) + '.' + str(res.microseconds)
-    print('Execution time {0}'.format(res1))
+    print('Execution time '+res1)
 
 
 
