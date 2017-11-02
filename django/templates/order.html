@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}3аказ № {{ order.id }}{% endblock %}
+{% block body %}
+    <div class="text-center">
+    <p class= "bg-primary">
+
+        Страница заказа №{{ order.id }}
+
+    </p>
+    </div>
+     <div class="text-info">
+     Информация о заказе №{{ order.id }}
+    </div>
+    {% endblock %}

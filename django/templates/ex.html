@@ -1,0 +1,22 @@
+
+{% extends 'base.html' %}
+I
+{# Подставится вместо блока title в базовом шаблоне #}
+{% block title %}3аказы{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for order in orders %}
+
+            {% include 'order_element.html' with element=order %}
+            {% if order.id == 3 %}
+                <div>конец списка</div>
+            {% endif %}
+        {% empty %}
+            <li>пустой cписок</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+
+
